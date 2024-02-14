@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-rhua
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkwch-fix-0075-0003-tenant/tkwch-fix-0075-0003-app/devfile-sample-rhua@sha256:3147d0e00d01a5214a0ac103d5f3949e63f4535c5364fa8d919c2fd253f3dbc5
         name: my-nodejs
         ports:
         - containerPort: 3001
